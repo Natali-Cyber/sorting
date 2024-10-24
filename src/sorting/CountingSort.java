@@ -5,7 +5,7 @@ package sorting;
 class CountingSort implements SortingMethod {
 
 
-    public void sort(int array[]) {
+    public void sort(int[] array) {
         int size = array.length;
         int[] output = new int[size + 1];
 

@@ -4,7 +4,7 @@ package sorting;
 // Java класс, реализующий сортировку вставками
 public class InsertionSort implements SortingMethod {
     // Метод сортировки
-    public void sort(int array[]){
+    public void sort(int[] array){
         // Итерируемся по элементам массива, начиная со второго элемента
         for (int i = 1; i < array.length; i++) {
             // Присваиваем значение ключа тому элементу, который вставляем

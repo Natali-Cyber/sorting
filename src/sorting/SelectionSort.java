@@ -4,7 +4,7 @@ package sorting;
 // Java класс, реализующий сортировку выбором
 public class SelectionSort implements SortingMethod {
     // Метод сортировки
-    public void sort(int array[]){
+    public void sort(int[] array){
         int len = array.length; // Получаем длину массива
         // Итерируемся по элементам
         for (int i = 0; i < len - 1; i++) {

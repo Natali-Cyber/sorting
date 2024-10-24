@@ -2,7 +2,7 @@ package sorting;
 
 
 class ShellSort implements SortingMethod { // Класс ShellSort реализует интерфейс SortingMethod
-    public void sort(int array[]) { // Метод сортировки, принимающий массив
+    public void sort(int[] array) { // Метод сортировки, принимающий массив
         int n = array.length; // Получаем длину массива
 
         // Начинаем с максимального интервала (gap), затем уменьшаем его
