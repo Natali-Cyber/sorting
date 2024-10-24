@@ -3,7 +3,7 @@ package sorting;
 // Java класс, реализующий сортировку кучей (Heap Sort)
 public class HeapSort implements SortingMethod { // Класс HeapSort реализует интерфейс SortingMethod
     // Метод сортировки с использованием алгоритма сортировки кучей
-    public void sort(int array[]) {
+    public void sort(int[] array) {
         int length = array.length; // Получаем длину массива
 
         // Построение кучи (heap)
@@ -22,7 +22,7 @@ public class HeapSort implements SortingMethod { // Класс HeapSort реал
     }
 
     // Метод для превращения массива в кучу
-    void heapify(int array[], int length, int i) {
+    void heapify(int[] array, int length, int i) {
         int greatest = i; // Изначально предполагаем, что наибольший элемент — это корень
         int l = 2 * i + 1; // Индекс левого дочернего элемента
         int r = 2 * i + 2; // Индекс правого дочернего элемента

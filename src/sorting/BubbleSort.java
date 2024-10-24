@@ -4,7 +4,7 @@ package sorting;
 // Java класс, реализующий сортировку пузырьком (оптимизированную)
 public class BubbleSort implements SortingMethod {
     // Метод сортировки
-    public void sort(int array[]) {
+    public void sort(int[] array) {
         int tmp, length = array.length; // Получаем длину массива
         boolean swapped; // Флаг для отслеживания обменов
 

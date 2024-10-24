@@ -2,7 +2,7 @@ package sorting;
 
 
 class BinaryTreeSort implements SortingMethod {
-    private class Node {
+    private static class Node {
         int value;
         Node left, right;
 
